@@ -22,7 +22,7 @@ let dataMahasiswa = [
         email: "budi.santoso@example.com"
     }
 ];
-
+//tes
 // 2. Elemen Dom Utama.
 const alertBox = document.getElementById("alert-box");
 jnk
