@@ -94,7 +94,7 @@ function tambah_mahasiswa($npm, $nama, $program_studi, $angkatan, $email) {
     $npm = sanitize($npm);
     $nama = sanitize($nama);
     $program_studi = sanitize($program_studi);
-    $angkatan = sanitize($angkatan);
+    $angkatan = (int) $angkatan;
     $email = sanitize($email);
 
     // Validasi Server-Side
